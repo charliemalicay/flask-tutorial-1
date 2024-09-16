@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "flask-tutorial-1"
+version = "0.1.0"
+description = ""
+authors = ["Charliemagne C. Malicay <charliemalicay@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.3"
+flask-httpauth = "^4.8.0"
+werkzeug = "^3.0.4"
+pyjwt = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
